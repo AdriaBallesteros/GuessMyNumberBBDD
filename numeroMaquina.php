@@ -7,7 +7,7 @@
         <title>Guess my Number</title>
     </head>
     <body>
-        <h1>Guess my Number Objetos</h1>
+        <h1 style="text-aling:center">Guess my Number con Base de Datos</h1>
         <h3>Adivina el número de la máquina</h3>
     
         <form name="form10" method="post" action="lvl10.php">

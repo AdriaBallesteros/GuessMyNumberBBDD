@@ -8,20 +8,20 @@
         <title>Guess my Number</title>
     </head>
     <body>
-        <h1>Guess my Number Objetos</h1>
+        <h1 style="text-align:center">Guess my Number con Base de Datos</h1>
         <h3>La maquina adivina tu número</h3>
              
-        <form name="form10_m" method="post" action="lvl10_m.php">
+        <form name="form10_m" method="post" action="lvl10_machine.php">
             <strong>Nivel 1-10 : </strong> 
             <input type="submit" value="Entra" style="background-color:green; color:white">
         </form>
         
-        <form name="form50_m" method="post" action="lvl50_m.php">
+        <form name="form50_m" method="post" action="lvl50_machine.php">
             <strong>Nivel 1-50 : </strong>
             <input type="submit" value="Entra" style="background-color:green; color:white">
         </form>
 
-        <form name="form100_m" method="post" action="lvl100_m.php">
+        <form name="form100_m" method="post" action="lvl100_machine.php">
             <strong>Nivel 1-100 : </strong>
             <input type="submit" value="Entra" style="background-color:green; color:white">
         </form>

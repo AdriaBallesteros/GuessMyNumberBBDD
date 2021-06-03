@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1 style="text-align:center">Guess my Number con Base de Datos</h1>
-        <h3>Elige un juego!</h3>
+        <h3>Elige el Modo de  juego!</h3>
    
         <form name="nMaquina" method="post" action="numeroMaquina.php">
         <strong>Adivina el número de la máquina :</strong>
