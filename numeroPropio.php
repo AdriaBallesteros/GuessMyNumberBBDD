@@ -13,21 +13,21 @@
              
         <form name="form10_m" method="post" action="lvl10_m.php">
             <strong>Nivel 1-10 : </strong> 
-            <input type="submit" value="Entra">
+            <input type="submit" value="Entra" style="background-color:green; color:white">
         </form>
         
         <form name="form50_m" method="post" action="lvl50_m.php">
             <strong>Nivel 1-50 : </strong>
-            <input type="submit" value="Entra">
+            <input type="submit" value="Entra" style="background-color:green; color:white">
         </form>
 
         <form name="form100_m" method="post" action="lvl100_m.php">
             <strong>Nivel 1-100 : </strong>
-            <input type="submit" value="Entra">
+            <input type="submit" value="Entra" style="background-color:green; color:white">
         </form>
 
         <form name="volver" method="post" action="index.php">
-            <input type="submit" value="Volver a inicio">
+            <input type="submit" value="Volver a inicio" style="background-color:red; color:white">
         </form>
         
     </body>

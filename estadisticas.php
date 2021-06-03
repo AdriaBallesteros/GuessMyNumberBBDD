@@ -16,14 +16,14 @@ require 'utiles.php';
         $mysql->connect();
     ?>
     <h1>Estadisticas</h1>
-    <h2>Adivina el numero de la maquina</h2>
+    <h2>Adivina el numero - maquina</h2>
     <ul>
         <li>
             <h3>Nivel 1-10</h3>
             <form name="1" method="post" action="estadisticas.php">
                 <input name='tabla1[1][nivell]' type='hidden' value='1'>
                 <input name='tabla1[1][modalitat]' type='hidden' value='Huma'>
-                <input type="submit" value="Ver">
+                <input type="submit" value="Ver" style="background-color:green; color:white">
             </form>
             <?php
                 if((isset($_POST['tabla1']) && !empty($_POST['tabla1']))){
@@ -67,7 +67,7 @@ require 'utiles.php';
             <form name="1" method="post" action="estadisticas.php">
                 <input name='tabla2[2][nivell]' type='hidden' value='2'>
                 <input name='tabla2[2][modalitat]' type='hidden' value='Huma'>
-                <input type="submit" value="Ver">
+                <input type="submit" value="Ver" style="background-color:green; color:white">
             </form>
             <?php
                 if((isset($_POST['tabla2']) && !empty($_POST['tabla2']))){
@@ -111,7 +111,7 @@ require 'utiles.php';
             <form name="1" method="post" action="estadisticas.php">
                 <input name='tabla3[3][nivell]' type='hidden' value='3'>
                 <input name='tabla3[3][modalitat]' type='hidden' value='Huma'>
-                <input type="submit" value="Ver">
+                <input type="submit" value="Ver" style="background-color:green; color:white">
             </form>
             <?php
                 if((isset($_POST['tabla3']) && !empty($_POST['tabla3']))){
@@ -152,14 +152,14 @@ require 'utiles.php';
         
     </ul>
 
-    <h2>Adivina el numero del Humano</h2>
+    <h2>Adivina el numero - Humano</h2>
     <ul>
         <li>
             <h3>Nivel 1-10</h3>
             <form name="1" method="post" action="estadisticas.php">
                 <input name='tabla4[4][nivell]' type='hidden' value='1'>
                 <input name='tabla4[4][modalitat]' type='hidden' value='Maquina'>
-                <input type="submit" value="Ver">
+                <input type="submit" value="Ver" style="background-color:green; color:white">
             </form>
             <?php
                 if((isset($_POST['tabla4']) && !empty($_POST['tabla4']))){
@@ -203,7 +203,7 @@ require 'utiles.php';
             <form name="1" method="post" action="estadisticas.php">
                 <input name='tabla5[5][nivell]' type='hidden' value='2'>
                 <input name='tabla5[5][modalitat]' type='hidden' value='Maquina'>
-                <input type="submit" value="Ver">
+                <input type="submit" value="Ver" style="background-color:green; color:white">
             </form>
             <?php
                 if((isset($_POST['tabla5']) && !empty($_POST['tabla5']))){
@@ -247,7 +247,7 @@ require 'utiles.php';
             <form name="1" method="post" action="estadisticas.php">
                 <input name='tabla6[6][nivell]' type='hidden' value='3'>
                 <input name='tabla6[6][modalitat]' type='hidden' value='Maquina'>
-                <input type="submit" value="Ver">
+                <input type="submit" value="Ver" style="background-color:green; color:white">
             </form>
             <?php
                 if((isset($_POST['tabla6']) && !empty($_POST['tabla6']))){
@@ -289,7 +289,7 @@ require 'utiles.php';
     </ul>
     
     <form name="volver" method="post" action="index.php">
-            <input type="submit" value="Volver a inicio">
+            <input type="submit" value="Volver a inicio" style="background-color:red; color:white">
     </form>
 
 </body>
