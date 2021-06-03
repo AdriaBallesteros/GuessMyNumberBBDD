@@ -73,7 +73,7 @@ require 'utiles.php';
                             echo "Felicidades lo has acertado\n";
 
                             //CONEXION BBDD mediante Procedimental
-                            $mysql = new databaseProc('localhost', 'root', 'admin', 'm07uf3');
+                            $mysql = new databaseProc('localhost', 'root', 'abc.123', 'm07uf3');
                             $mysql->connect();
                             $mysql->insert('Huma','1', "'".$obj->getCont_gen()."'");
 

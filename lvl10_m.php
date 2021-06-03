@@ -70,7 +70,7 @@ require 'utiles.php';
                         echo 'La máquina ha adivinado el número ' . $maqui->getNum_maq() . ' en ' . $maqui->getCont() . ' intentos';
 
                         //CONEXION BBDD mediante Procedimental
-                        $mysql = new databaseProc('localhost', 'root', 'admin', 'm07uf3');
+                        $mysql = new databaseProc('localhost', 'root', 'abc.123', 'm07uf3');
                         $mysql->connect();
                         $mysql->insert('Maquina','1', "'".$maqui->getCont()."'");
 
